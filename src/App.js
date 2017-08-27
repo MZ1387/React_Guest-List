@@ -52,6 +52,8 @@ class GuestList extends Component {
           transitionName="slide"
           transitionEnterTimeout={500}
           transitionLeaveTimeout={500}
+          transitionAppear={true}
+          transitionAppearTimeout={500}
         >
 
           {guests}
